@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossPlatformSuite" duration-ms="25828" started-at="2018-07-09T20:26:21Z" finished-at="2018-07-09T20:26:47Z">
+    <groups>
+    </groups>
+    <test name="RealDevice Test" duration-ms="18134" started-at="2018-07-09T20:26:21Z" finished-at="2018-07-09T20:26:39Z">
+      <class name="appiumTest.preinstalled">
+        <test-method status="PASS" signature="deviceSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumTest.preinstalled@44c8afef]" name="deviceSetUp" is-config="true" duration-ms="10178" started-at="2018-07-09T20:26:21Z" finished-at="2018-07-09T20:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MJBQLBEYAUPJGEDQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[io.selendroid.testapp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[io.selendroid.testapp.HomeScreenActivity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1:4733/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deviceSetUp -->
+        <test-method status="PASS" signature="preinstalledapp()[pri:0, instance:appiumTest.preinstalled@44c8afef]" name="preinstalledapp" duration-ms="6606" started-at="2018-07-09T20:26:31Z" finished-at="2018-07-09T20:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preinstalledapp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumTest.preinstalled@44c8afef]" name="tearDown" is-config="true" duration-ms="1333" started-at="2018-07-09T20:26:38Z" finished-at="2018-07-09T20:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appiumTest.preinstalled -->
+    </test> <!-- RealDevice Test -->
+    <test name="Emulator Test" duration-ms="25828" started-at="2018-07-09T20:26:21Z" finished-at="2018-07-09T20:26:47Z">
+      <class name="appiumTest.preinstalled">
+        <test-method status="PASS" signature="deviceSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumTest.preinstalled@6950e31]" name="deviceSetUp" is-config="true" duration-ms="15352" started-at="2018-07-09T20:26:21Z" finished-at="2018-07-09T20:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5203b75de26b14cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[io.selendroid.testapp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[io.selendroid.testapp.HomeScreenActivity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deviceSetUp -->
+        <test-method status="PASS" signature="preinstalledapp()[pri:0, instance:appiumTest.preinstalled@6950e31]" name="preinstalledapp" duration-ms="6399" started-at="2018-07-09T20:26:36Z" finished-at="2018-07-09T20:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preinstalledapp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumTest.preinstalled@6950e31]" name="tearDown" is-config="true" duration-ms="4062" started-at="2018-07-09T20:26:43Z" finished-at="2018-07-09T20:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appiumTest.preinstalled -->
+    </test> <!-- Emulator Test -->
+  </suite> <!-- CrossPlatformSuite -->
+</testng-results>

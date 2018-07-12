@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossPlatformSuite" parallel="tests">
+<test name="RealDevice Test">
+    
+    <parameter name="device" value="MJBQLBEYAUPJGEDQ"></parameter>	
+  	<parameter name="apppackage" value="io.selendroid.testapp"></parameter>	
+  	<parameter name="activity" value="io.selendroid.testapp.HomeScreenActivity"></parameter>	
+  	<parameter name="appiumServer" value="http://127.0.0.1:4733/wd/hub"></parameter>
+    <classes>
+      <class name="appiumTest.preinstalled"/>
+    </classes>
+</test>
+<test name="Emulator Test">
+    <parameter name="device" value="5203b75de26b14cb"></parameter>	 
+  	<parameter name="apppackage" value="io.selendroid.testapp"></parameter>	
+  	<parameter name="activity" value="io.selendroid.testapp.HomeScreenActivity"></parameter>	
+  	<parameter name="appiumServer" value="http://127.0.0.1:4723/wd/hub"></parameter>
+    <classes>
+      <class name="appiumTest.preinstalled"/>
+    </classes>
+</test>
+</suite> <!-- Suite -->
